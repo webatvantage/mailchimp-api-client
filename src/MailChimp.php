@@ -274,7 +274,11 @@ class MailChimp
         $response            = $this->setResponseState($response, $responseContent, $ch);
         $formattedResponse   = $this->formatResponse($response);
 
-        curl_close($ch);
+        // Skip closing the connection when running on PHP 8.0+
+        if (PHP_MAJOR_VERSION < 8)
+        {
+            curl_close($ch);
+        }
 
         $isSuccess = $this->determineSuccess($response, $formattedResponse, $timeout);
 
