@@ -1,5 +1,5 @@
 {
-    "name": "drewm/mailchimp-api",
+    "name": "webatvantage/mailchimp-api-client",
     "description": "Super-simple, minimum abstraction MailChimp API v3 wrapper",
     "license": "MIT",
     "require": {
@@ -21,13 +21,18 @@
             "DrewM\\MailChimp\\Tests\\": "tests/"
         }
     },
-    "homepage": "https://github.com/drewm/mailchimp-api",
+    "homepage": "https://github.com/webatvantage/mailchimp-api-client",
     "authors": [ 
         {
             "name": "Drew McLellan",
             "email": "drew.mclellan@gmail.com",
             "homepage": "http://allinthehead.com/"
 
+        },
+        {
+            "name": "Jente De Camps",
+            "email": "jente@webatvantage.be",
+            "role": "Developer"
         }
     ]
 
