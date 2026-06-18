@@ -5,10 +5,10 @@ namespace DrewM\MailChimp;
 /**
  * Super-simple, minimum abstraction MailChimp API v3 wrapper
  * MailChimp API v3: http://developer.mailchimp.com
- * This wrapper: https://github.com/drewm/mailchimp-api
+ * This wrapper: https://github.com/webatvantage/mailchimp-api-client
  *
  * @author  Drew McLellan <drew.mclellan@gmail.com>
- * @version 2.5
+ * @version 1.0.0
  */
 class MailChimp
 {
